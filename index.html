@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atari Agent Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-colour: #f9f9f9;
+            padding: 20px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat( auto-fit, minmax(25rem, 3fr) );
+            gap: 20px;
+            width: 100%;
+        }
+        .video-container {
+            text-align: centre;
+            background-colour: #ffffff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 20rem;
+        }
+        .caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        video {
+            width: 20rem;
+            height: auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atari Agent Demonstrations</h1>
+    <div class="video-grid">
+        <div class="video-container">
+            <div class="caption">RND</div>
+            <video controls>
+                <source src="RND.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="caption">DRND</div>
+            <video controls>
+                <source src="DRND.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="caption">NovelD</div>
+            <video controls>
+                <source src="NovelD.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="caption">DNovelD</div>
+            <video controls>
+                <source src="DNovelD.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
+
